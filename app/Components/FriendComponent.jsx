@@ -25,11 +25,11 @@ export default function HostelStudents({
             </p>
           </div>
           <div className="">
-            <img src="./favicon.ico" className="h-8 w-8 mr-1" />
+            <img src="./business.png" className="h-10 w-10 mr-1" />
           </div>
 
           <div>
-            <p className="text-yellow-400 font-bold text-md">{name}</p>
+            <p className="text-blue-600 font-bold text-md">{name}</p>
             <p className="text-gray-600 font-extralight text-sm">{address}</p>
           </div>
           <div className="justify-end text-gray-400 ml-8 mr-8">
@@ -42,14 +42,14 @@ export default function HostelStudents({
         <div className="">
           <div className="flex align-middle">
             <div>
-              <p className="text-yellow-400 font-bold text-md ">{name}</p>
+              <p className=" font-bold text-md ">Name : <span className="text-blue-600">{name}</span></p>
               <p className="text-gray-600  text-md">
                 <span className="text-white">Address </span>:{address}
               </p>
               <p className="text-gray-600  text-md">
                 <span className="text-white">Age </span>:{parseInt(age)}
               </p>
-              <p className="text-yellow-400 font-bold text-md ">
+              <p className="text-blue-600 font-bold text-md ">
                 Registered On: {date}
               </p>
               <div className="flex justify-center my-2">
